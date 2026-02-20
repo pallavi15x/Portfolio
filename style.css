@@ -37,6 +37,7 @@ nav a {
 
 nav a:hover {
   color: #00bcd4;
+  
 }
 
 /* Hero Section */
@@ -200,5 +201,10 @@ footer {
     padding: 50px 25px;
   }
 
+}
+.pallavi{
+    background-color: #111;
+    color: beige;
+    border-radius: 50%;
 }
     
