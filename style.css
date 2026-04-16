@@ -627,12 +627,19 @@ backdrop-filter:blur(10px);
 }
 
 }
-.profile-img{
-width:140px;
-height:140px;
-border-radius:50%;
-object-fit:cover;
-margin-bottom:20px;
-border:4px solid #38bdf8;
-box-shadow:0 0 20px #38bdf8;
+.profile-img {
+    /* Your existing styles (border, glow, etc.) */
+    width: 200px; /* Adjust base size if needed */
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover; /* Keeps image from looking stretched */
+    
+    /* The Zoom Effect */
+    transform: scale(1.5); /* 1.5 zooms it in by 150% */
+    transition: transform 0.3s ease; /* Makes the zoom smooth */
+}
+
+/* Optional: Zoom more when you hover your mouse over it */
+.profile-img:hover {
+    transform: scale(1.8); 
 }
